@@ -1,11 +1,11 @@
 {
   "name": "react-cropper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./",
+    "lint": "eslint --fix ./",
     "build": "babel ./src/react-cropper.js --out-file dist/react-cropper.js",
     "clean": "rimraf dist && mkdir dist",
     "prepublish": "npm run clean && npm run build",
@@ -30,7 +30,7 @@
     "url": "https://github.com/roadmanfong/react-cropper.git"
   },
   "dependencies": {
-    "cropperjs": "v1.0.0-rc.3",
+    "cropperjs": "^1.4.1",
     "prop-types": "^15.5.8"
   },
   "peerDependencies": {
